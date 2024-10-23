@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <div class="outer-container">
+        <div class="container">
+            <div class="heading">
+                <h1>ToDo List</h1>
+            </div>
+
+            <div id="todos">
+
+            
+
+            </div>
+
+            <div id="input">
+                <input type="text" class="input-todo" onkeydown="
+                if(event.key === 'Enter') {
+                    addTodo();
+                }
+            ">
+
+                <button class="add-todo" onclick="
+                addTodo();
+                "><i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/52fa5f1339.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
